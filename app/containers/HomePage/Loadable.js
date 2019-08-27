@@ -3,9 +3,9 @@
  */
 
 import React from 'react';
-import loadable from 'utils/loadable';
+import Loadable from 'utils/loadable';
 import LoadingIndicator from 'components/LoadingIndicator';
 
-export default loadable(() => import('./index'), {
+export default Loadable(() => import('./index'), {
   fallback: <LoadingIndicator />,
 });

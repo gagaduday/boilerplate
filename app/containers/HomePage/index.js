@@ -92,6 +92,7 @@ export function HomePage({
                 placeholder="mxstbr"
                 value={username}
                 onChange={onChangeUsername}
+                autoComplete="off"
               />
             </label>
           </Form>

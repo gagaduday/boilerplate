@@ -16,6 +16,9 @@ import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
+// import Calculator from 'containers/Calculator/Loadable';
+// import AddTodo from 'container/AddTodo/Loadable';
+// import Images from 'container/Images/Loadable';
 
 import GlobalStyle from '../../global-styles';
 
@@ -42,6 +45,9 @@ export default function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/features" component={FeaturePage} />
         <Route path="" component={NotFoundPage} />
+        {/* <Route path="/calculator" component={Calculator} />
+        <Route path="/addtodo" component={AddTodo} />
+        <Route path="/images" component={Images} /> */}
       </Switch>
       <Footer />
       <GlobalStyle />

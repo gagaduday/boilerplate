@@ -1,11 +1,12 @@
 import React from 'react';
 import AddBar from './AddBar';
+import TodoList from './TodoList';
 
 const App = () => {
   return (
     <div className="ui container">
-      <h1>Add Todo</h1>
       <AddBar />
+      <TodoList />
     </div>
   );
 };

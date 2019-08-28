@@ -24,6 +24,7 @@ class AddBar extends React.Component {
       <div className="ui segment">
         <form onSubmit={this.handleSubmit} className="ui form">
           <div className="field">
+            <label>Add Todo</label>
             <input
               type="text"
               value={this.state.content}

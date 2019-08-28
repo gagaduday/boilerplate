@@ -20,4 +20,8 @@ export default defineMessages({
     id: `${scope}.images`,
     defaultMessage: 'Images',
   },
+  addtodo: {
+    id: `${scope}.addtodo`,
+    defaultMessage: 'AddTodo',
+  },
 });

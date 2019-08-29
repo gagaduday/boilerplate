@@ -24,4 +24,8 @@ export default defineMessages({
     id: `${scope}.addtodo`,
     defaultMessage: 'AddTodo',
   },
+  calculator: {
+    id: `${scope}.calculator`,
+    defaultMessage: 'Calculator',
+  },
 });

@@ -14,6 +14,9 @@ import { CHANGE_USERNAME, INCREMENT, DECREMENT } from './constants';
 // The initial state of the App
 export const initialState = {
   username: '',
+};
+
+export const countState = {
   count: 0,
 };
 
@@ -28,7 +31,7 @@ const homeReducer = (state = initialState, action) =>
     }
   });
 
-const counterReducer = (state = initialState, action) => {
+const counterReducer = (state = countState, action) => {
   switch (action.type) {
     case INCREMENT:
       return {
@@ -45,5 +48,7 @@ const counterReducer = (state = initialState, action) => {
 
 export default combineReducers({
   homeReducer,
-  count: counterReducer,
+  counterReducer,
 });
+
+// export default homeReducer;
